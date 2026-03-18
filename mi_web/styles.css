@@ -1,6 +1,9 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
 .navbar{
     background-color:#333;
-    color:white;
+    color:beige;
     display:flex;
     justify-content:space-between;
     align-items:center;
@@ -12,20 +15,27 @@
     font-size: 36px;
     margin-top: 40px;
     margin-bottom: 40px;
-    color:whitesmoke;
+    color:beige;
     font-weight: bold;
+}
+.descripcion{
+    text-align: center;
+    font-size: 20px;
+    margin: 30px 0;
+    color:beige
 }
 .subtitulo{
     text-align:center;
     font-size:36px;
     margin:40px 0;
     position:relative;
+    color: beige;
 }
 .subtitulo::after{
     content:"";
     width:120px;
     height:4px;
-    background:blue;
+    background:#333;
     display:block;
     margin:10px auto;
 }
@@ -51,12 +61,14 @@
 
 .producto{
     width:250px;
-    border:1px solid #e3dddd;
-    padding:15px;
+    border:3px solid #e3dddd;
+    padding:60px;
     border-radius:10px;
     text-align:center;
     justify-content: center;
-    border-color: black;
+    border-color:beige;
+    background-color: #333;
+    color: bisque;
 }
 
 .producto img{
@@ -69,17 +81,23 @@
     color:green;
 }
 .boton:hover{
-    transform: scale(1.05);
+    transform: scale(1.40);
     color: green;
-
+    background-color:azure;
+}
+.boton{
+    background-color: #546268;
+    color:beige
 }
 .footer{
     text-align: center;
     background-color: #333;
-    color:white;
+    color:beige;
     padding: 20px;
     margin-top: 40px;
 }
 .body {
-    background-color: whitesmoke;
+    background-color: #546268;
 }
+
+
