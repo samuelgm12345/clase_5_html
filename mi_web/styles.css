@@ -78,7 +78,7 @@
 
 .precio{
     font-weight:bold;
-    color:green;
+    color:greenyellow;
 }
 .boton:hover{
     transform: scale(1.40);
