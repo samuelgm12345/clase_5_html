@@ -1,6 +1,14 @@
 *{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
+body{
+    background-color: #546268;
+}
+.app{
+    background-color: #546268;
+    min-height: 100vh;
+}
 .navbar{
     background-color:#333;
     color:beige;
@@ -18,12 +26,14 @@
     color:beige;
     font-weight: bold;
 }
+
 .descripcion{
     text-align: center;
     font-size: 20px;
     margin: 30px 0;
-    color:beige
+    color:beige;
 }
+
 .subtitulo{
     text-align:center;
     font-size:36px;
@@ -31,6 +41,7 @@
     position:relative;
     color: beige;
 }
+
 .subtitulo::after{
     content:"";
     width:120px;
@@ -39,56 +50,64 @@
     display:block;
     margin:10px auto;
 }
+
 .menu{
-     list-style:none;
+    list-style:none;
     display:flex;
     gap:25px;
+    justify-content: center;
 }
+
 .productos{
     text-align:center;
-    padding:40px;
+    padding:40px 0;
 }
+
+.producto{
+    width:100%;
+    max-width:300px;
+    border:3px solid beige;
+    padding:25px;
+    border-radius:15px;
+    text-align:center;
+    background-color: #333;
+    color: bisque;
+    transition: transform 0.3s ease;
+}
+
 .producto:hover{
     transform: scale(1.05);
 }
 
-.Contenedor-productos{
-    display:grid;
-    grid-template-columns: repeat(3, 1fr);
-    justify-content:center;
-    gap:20px;
-}
-
-.producto{
-    width:250px;
-    border:3px solid #e3dddd;
-    padding:60px;
-    border-radius:10px;
-    text-align:center;
-    justify-content: center;
-    border-color:beige;
-    background-color: #333;
-    color: bisque;
-}
-
 .producto img{
     width:100%;
+    height:200px;
+    object-fit: cover;
     border-radius:10px;
 }
 
 .precio{
     font-weight:bold;
     color:greenyellow;
+    font-size:18px;
+    margin:10px 0;
 }
+
+.boton{
+    background-color: #546268;
+    color:beige;
+    border:none;
+    padding:8px 16px;
+    border-radius:6px;
+    transition: all 0.3s ease;
+}
+
 .boton:hover{
-    transform: scale(1.40);
+    transform: scale(1.1);
     color: green;
     background-color:azure;
 }
-.boton{
-    background-color: #546268;
-    color:beige
-}
+
 .footer{
     text-align: center;
     background-color: #333;
@@ -96,8 +115,7 @@
     padding: 20px;
     margin-top: 40px;
 }
-.body {
+
+.body{
     background-color: #546268;
 }
-
-
